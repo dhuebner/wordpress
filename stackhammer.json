@@ -1,0 +1,23 @@
+{
+  "metaVersion": "1.1.2.1",
+  "accessKey": "AKIAJDPTACIVXHT24P7A",
+  "puppetVersion": "PUPPET27",
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "nodes": [
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-31814f58",
+          "role": "blogserver",
+          "name": "myblog"
+        }
+      ],
+      "name": "production"
+    }
+  ]
+}
